@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225" width="100%" height="100%">
+    <defs>
+      <linearGradient id="wallpaperGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color: #059669; stop-opacity: 1" />
+        <stop offset="100%" style="stop-color: #022c22; stop-opacity: 1" />
+      </linearGradient>
+      <linearGradient id="bookCoverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color: #022c22; stop-opacity: 1" />
+        <stop offset="100%" style="stop-color: #1c1917; stop-opacity: 1" />
+      </linearGradient>
+    </defs>
+    <rect width="400" height="225" fill="#022c22" rx="8"/><path d="M0 45 L400 45 M0 90 L400 90 M0 135 L400 135 M0 180 L400 180 M80 0 L80 225 M160 0 L160 225 M240 0 L240 225 M320 0 L320 225" stroke="white" stroke-width="1" opacity="0.04" />
+      <!-- Book spine & cover panel -->
+      <rect x="120" y="30" width="170" height="165" rx="3" fill="url(#bookCoverGrad)" stroke="#cbd5e1" stroke-width="2"/>
+      <rect x="110" y="30" width="10" height="165" fill="#1c1917"/>
+      <!-- Typography -->
+      <text x="210" y="70" fill="white" font-size="11" font-weight="900" font-family="Georgia, serif" text-anchor="middle" letter-spacing="1">
+        CREATIVE THINKING
+      </text>
+      <text x="210" y="85" fill="white" font-size="9" font-weight="900" font-family="Georgia, serif" text-anchor="middle" letter-spacing="1" opacity="0.9">
+        WORK BOOK
+      </text>
+      <!-- Author name -->
+      <text x="210" y="115" fill="#059669" font-size="7" font-weight="800" font-family="sans-serif" text-anchor="middle" letter-spacing="1.5">
+        PRESSPUBLISH
+      </text>
+      <!-- Emblem decorative -->
+      <circle cx="210" cy="150" r="16" fill="none" stroke="#059669" stroke-width="1.5"/>
+      <polygon points="210,140 216,150 210,160 204,150" fill="#059669"/>
+    
+    <text x="24" y="210" fill="white" font-size="10" font-family="sans-serif" font-weight="bold" opacity="0.3">PRESSPUBLISH</text>
+  
+  </svg>

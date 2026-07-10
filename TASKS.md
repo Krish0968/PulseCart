@@ -1,0 +1,52 @@
+# PulseCart Execution Tasks
+
+- `[x]` **Increment 1: Repository structure, backend, frontend, database configuration**
+  - `[x]` Create directory structure
+  - `[x]` Initialize database files
+  - `[x]` Setup backend `pom.xml` and folder structure
+  - `[x]` Setup frontend `package.json` and basic files
+- `[x]` **Increment 2: Authentication, authorization, users, categories, products**
+  - `[x]` User, Role, Category, Product entities
+  - `[x]` Security configuration, JWT Filter, BCrypt hashing
+  - `[x]` Auth APIs, signup/login controllers
+  - `[x]` Browse products, details, categories APIs
+  - `[x]` Frontend Auth context and routing
+  - `[x]` Frontend Login, Register, Home, Listing, Details pages
+- `[x]` **Increment 3: Cart, checkout, orders, transactional inventory**
+  - `[x]` Cart and Order entities
+  - `[x]` Cart APIs (add, remove, update)
+  - `[x]` Checkout API (stock validation, transaction management, mock payment, order placement)
+  - `[x]` Frontend Cart page, Checkout page, Order Confirmation page
+- `[x]` **Increment 4: Reviews, ratings, interaction tracking, search**
+  - `[x]` Review entity and APIs (average rating, review restrictions)
+  - `[x]` UserInteraction entity and API
+  - `[x]` Product Search API (partial match, filtering, sorting)
+  - `[x]` Frontend Search interface, filters, reviews list, and review forms
+- `[x]` **Increment 5: Recommendation engine and cold-start strategy**
+  - `[x]` Hybrid recommendation logic (weights: view=1, search=1, cart=3, purchase=5)
+  - `[x]` Cold-start logic (highly rated, trending, diverse categories)
+  - `[x]` Recommendations API
+  - `[x]` Frontend Recommendation carousels, explanation labels
+- `[x]` **Increment 6: Admin dashboard and management features**
+  - `[x]` Admin dashboard APIs (statistics, sales, inventory alerts)
+  - `[x]` Admin CRUD APIs (products, categories, order status updates)
+  - `[x]` Frontend Admin dashboard, products list, form, category list, inventory overview
+- `[x]` **Increment 7: Azure Blob Storage integration and local fallback**
+  - `[x]` Blob storage client configuration
+  - `[x]` Image upload controller with local filesystem fallback
+  - `[x]` Frontend admin image upload component
+- `[x]` **Increment 8: Azure Functions recommendation processor and local fallback**
+  - `[x]` Timer-triggered Function definition
+  - `[x]` Local recommendation task fallback via `@Scheduled`
+- `[x]` **Increment 9: Azure production configuration, VM deployment assets, monitoring configuration**
+  - `[x]` Dockerfiles and Docker Compose configs
+  - `[x]` Azure SQL DB setup instructions and scripts
+  - `[x]` Application Insights integration and structured logging
+- `[x]` **Increment 10: Tests, seed data, error handling, validation, security review**
+  - `[x]` Backend unit tests and integration tests
+  - `[x]` Seed data loader with >60 products and varied interactions
+  - `[x]` Global exception handler and validation annotations
+- `[x]` **Increment 11: Documentation, diagrams, demo guide, viva questions, cost documentation**
+  - `[x]` Technical docs (Architecture, Algorithm, API, Azure, Monitoring, Costs)
+  - `[x]` Demo guide and Viva questions
+  - `[x]` Final project report

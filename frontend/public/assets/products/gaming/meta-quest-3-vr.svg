@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225" width="100%" height="100%">
+    <defs>
+      <linearGradient id="wallpaperGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color: #6366f1; stop-opacity: 1" />
+        <stop offset="100%" style="stop-color: #1e293b; stop-opacity: 1" />
+      </linearGradient>
+      <linearGradient id="bookCoverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color: #1e293b; stop-opacity: 1" />
+        <stop offset="100%" style="stop-color: #1c1917; stop-opacity: 1" />
+      </linearGradient>
+    </defs>
+    <rect width="400" height="225" fill="#1e293b" rx="8"/><path d="M0 45 L400 45 M0 90 L400 90 M0 135 L400 135 M0 180 L400 180 M80 0 L80 225 M160 0 L160 225 M240 0 L240 225 M320 0 L320 225" stroke="white" stroke-width="1" opacity="0.04" />
+      <!-- Curved visor -->
+      <rect x="100" y="70" width="200" height="90" rx="25" fill="#f8fafc" stroke="#6366f1" stroke-width="3"/>
+      <rect x="120" y="85" width="160" height="60" rx="12" fill="#0f172a"/>
+      <!-- visors trackers -->
+      <circle cx="140" cy="115" r="4" fill="#6366f1"/>
+      <circle cx="260" cy="115" r="4" fill="#6366f1"/>
+      <!-- straps -->
+      <path d="M100 115 L40 115" fill="none" stroke="#475569" stroke-width="10"/>
+      <path d="M300 115 L360 115" fill="none" stroke="#475569" stroke-width="10"/>
+    
+    <text x="24" y="210" fill="white" font-size="10" font-family="sans-serif" font-weight="bold" opacity="0.3">META</text>
+  
+  </svg>

@@ -1,0 +1,47 @@
+# Environment files / secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Frontend
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+.vite/
+**/.vite/
+
+# Java / Maven
+target/
+**/target/
+*.class
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Local database files
+mysql-data/
+*.sql
+*.db
+*.sqlite
+
+# Runtime uploads / local storage
+uploads/
+**/uploads/
+storage/
+**/storage/
+
+# Temporary files
+*.tmp
+*.temp

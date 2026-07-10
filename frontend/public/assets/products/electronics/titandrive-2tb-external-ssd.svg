@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225" width="100%" height="100%">
+    <defs>
+      <linearGradient id="wallpaperGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color: #3b82f6; stop-opacity: 1" />
+        <stop offset="100%" style="stop-color: #0f172a; stop-opacity: 1" />
+      </linearGradient>
+      <linearGradient id="bookCoverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color: #0f172a; stop-opacity: 1" />
+        <stop offset="100%" style="stop-color: #1c1917; stop-opacity: 1" />
+      </linearGradient>
+    </defs>
+    <rect width="400" height="225" fill="#0f172a" rx="8"/><path d="M0 45 L400 45 M0 90 L400 90 M0 135 L400 135 M0 180 L400 180 M80 0 L80 225 M160 0 L160 225 M240 0 L240 225 M320 0 L320 225" stroke="white" stroke-width="1" opacity="0.04" />
+      <!-- SSD body -->
+      <rect x="130" y="50" width="140" height="130" rx="12" fill="#1e293b" stroke="#3b82f6" stroke-width="3"/>
+      <!-- Carbon texture details -->
+      <path d="M140 70 L260 70 M140 100 L260 100 M140 130 L260 130" stroke="#cbd5e1" stroke-width="2" opacity="0.2"/>
+      <!-- Loop lock corner -->
+      <circle cx="250" cy="70" r="12" fill="none" stroke="#3b82f6" stroke-width="3"/>
+    
+    <text x="24" y="210" fill="white" font-size="10" font-family="sans-serif" font-weight="bold" opacity="0.3">STORAGEPLUS</text>
+  
+  </svg>

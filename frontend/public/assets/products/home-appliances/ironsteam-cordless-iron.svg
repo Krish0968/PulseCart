@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225" width="100%" height="100%">
+    <defs>
+      <linearGradient id="wallpaperGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color: #60a5fa; stop-opacity: 1" />
+        <stop offset="100%" style="stop-color: #1e3a8a; stop-opacity: 1" />
+      </linearGradient>
+      <linearGradient id="bookCoverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color: #1e3a8a; stop-opacity: 1" />
+        <stop offset="100%" style="stop-color: #1c1917; stop-opacity: 1" />
+      </linearGradient>
+    </defs>
+    <rect width="400" height="225" fill="#1e3a8a" rx="8"/><path d="M0 45 L400 45 M0 90 L400 90 M0 135 L400 135 M0 180 L400 180 M80 0 L80 225 M160 0 L160 225 M240 0 L240 225 M320 0 L320 225" stroke="white" stroke-width="1" opacity="0.04" />
+      <!-- Steam iron base soleplate -->
+      <path d="M100 160 L300 160 C300 160 290 120 200 120 L100 120 Z" fill="#cbd5e1" stroke="#60a5fa" stroke-width="2"/>
+      <!-- Handle grip -->
+      <path d="M120 120 L160 80 L260 80 L280 120" fill="none" stroke="#60a5fa" stroke-width="12" stroke-linecap="round"/>
+    
+    <text x="24" y="210" fill="white" font-size="10" font-family="sans-serif" font-weight="bold" opacity="0.3">CLEANTECH</text>
+  
+  </svg>

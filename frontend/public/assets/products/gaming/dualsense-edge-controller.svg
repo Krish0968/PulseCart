@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225" width="100%" height="100%">
+    <defs>
+      <linearGradient id="wallpaperGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color: #3b82f6; stop-opacity: 1" />
+        <stop offset="100%" style="stop-color: #0f172a; stop-opacity: 1" />
+      </linearGradient>
+      <linearGradient id="bookCoverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color: #0f172a; stop-opacity: 1" />
+        <stop offset="100%" style="stop-color: #1c1917; stop-opacity: 1" />
+      </linearGradient>
+    </defs>
+    <rect width="400" height="225" fill="#0f172a" rx="8"/><path d="M0 45 L400 45 M0 90 L400 90 M0 135 L400 135 M0 180 L400 180 M80 0 L80 225 M160 0 L160 225 M240 0 L240 225 M320 0 L320 225" stroke="white" stroke-width="1" opacity="0.04" />
+      <!-- DualSense Edge horns -->
+      <path d="M120 130 C90 130 70 160 70 200 C70 230 100 240 120 220 C140 200 160 200 180 210 L220 210 C240 200 260 200 280 220 C300 240 330 230 330 200 C330 160 310 130 290 130 Z" fill="#f8fafc" stroke="#cbd5e1" stroke-width="3"/>
+      <!-- Joysticks buttons -->
+      <circle cx="165" cy="180" r="16" fill="#1e293b" stroke="#cbd5e1" stroke-width="1"/>
+      <circle cx="235" cy="180" r="16" fill="#1e293b" stroke="#cbd5e1" stroke-width="1"/>
+      <circle cx="165" cy="180" r="8" fill="#475569"/>
+      <circle cx="235" cy="180" r="8" fill="#475569"/>
+      <!-- D-Pad -->
+      <rect x="105" y="150" width="20" height="6" rx="1" fill="#1e293b"/>
+      <rect x="112" y="143" width="6" height="20" rx="1" fill="#1e293b"/>
+    
+    <text x="24" y="210" fill="white" font-size="10" font-family="sans-serif" font-weight="bold" opacity="0.3">SONY</text>
+  
+  </svg>

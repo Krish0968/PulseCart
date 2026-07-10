@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 225" width="100%" height="100%">
+    <defs>
+      <linearGradient id="wallpaperGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color: #ef4444; stop-opacity: 1" />
+        <stop offset="100%" style="stop-color: #7f1d1d; stop-opacity: 1" />
+      </linearGradient>
+      <linearGradient id="bookCoverGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" style="stop-color: #7f1d1d; stop-opacity: 1" />
+        <stop offset="100%" style="stop-color: #1c1917; stop-opacity: 1" />
+      </linearGradient>
+    </defs>
+    <rect width="400" height="225" fill="#7f1d1d" rx="8"/><path d="M0 45 L400 45 M0 90 L400 90 M0 135 L400 135 M0 180 L400 180 M80 0 L80 225 M160 0 L160 225 M240 0 L240 225 M320 0 L320 225" stroke="white" stroke-width="1" opacity="0.04" />
+      <!-- PS5 curved white wings -->
+      <path d="M145 45 L125 240 L185 260 L205 55 Z" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+      <path d="M255 45 L275 240 L215 260 L195 55 Z" fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5"/>
+      <!-- Dark middle unit -->
+      <path d="M190 55 L200 248 L210 248 L215 55 Z" fill="#020617"/>
+      <!-- Cyan glowing led strips -->
+      <path d="M193 55 L201 248" stroke="#06b6d4" stroke-width="1.5"/>
+      <path d="M212 55 L208 248" stroke="#06b6d4" stroke-width="1.5"/>
+    
+    <text x="24" y="210" fill="white" font-size="10" font-family="sans-serif" font-weight="bold" opacity="0.3">FUNMAKER</text>
+  
+  </svg>
